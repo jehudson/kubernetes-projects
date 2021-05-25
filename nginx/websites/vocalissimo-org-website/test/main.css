@@ -1,0 +1,167 @@
+.h2 	{
+font-family: Sans-Serif;
+font-size: 55px;
+}
+.style1 {color: #314140}
+.style5 {font-family: Sans-Serif; color: #ffffff;}
+.style6 {
+        font-size: 24px;
+        font-weight: bold;
+}
+.style7 {
+        font-size: 18px
+}
+.style8 {
+        font-size: 12px;
+        font-weight: bold;
+}
+.style9 {
+font-size: 12px;
+color: #ffffff;}
+.style12 {
+font-size: 12px;
+color: #93BAc6;
+font-size: bold;
+}
+.style13 {
+	color: #ffffff;
+        font-size: 18px;
+}
+.style14
+{
+font-family: Sans-Serif; 
+color: #93BAC6;
+font-size: 18px;
+}
+.style15
+{
+font-family: Sans-Serif;
+color: #93BAC6;
+font-size: 24px;
+}
+.style16
+{
+font-family: Sans-Serif;
+color: #FFFFFF;
+font-size: 14px;
+text-align:justify;
+text-justify:inter-word;
+}
+
+
+.tabs a{
+  cursor: pointer;
+  padding: 5px;
+  background: #fff;
+  color: #000;
+  border: 1px solid #666;
+  border-bottom: 0;
+}
+.tabs a:hover, .tabs a.active{
+  background: #666;
+  color: #fff;
+}
+
+.tabContent{
+  border: 1px solid #aaa;
+  margin: 4px 0;
+  padding: 5px;
+}
+
+a:link {color:#FFFFFF;}      /* unvisited link */
+a:visited {color:#FFFFF;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#FFFFFF;}  /* selected link */
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+
+#container{
+		width:454px;
+		height:300px;
+		position:relative;
+	}
+
+	#container ul{
+		width:454px;
+		height:300px;
+		list-style:none outside none;
+		position:relative;
+		left: -40px; 
+		overflow:hidden;
+	}
+#container li:first-child{
+		display:list-item;
+		position:absolute;
+	}
+
+	#container li{
+		position:absolute;
+		display:none;
+	}
+
+#container .prevButton{
+		height:72px;
+		width:68px;
+		position:absolute;
+		background:url('Images/buttons.png') no-repeat;
+		top:50%;
+		margin-top:-36px;
+		cursor:pointer;
+		z-index:2000;
+		background-position:left top;
+		left:0
+	}
+
+	#container .prevButton:hover{ 
+			background-position:left bottom;left:0;}
+
+
+#container .nextButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('Images/buttons.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:right top;
+	right:0
+}
+
+#container .nextButton:hover{background-position:right bottom;right:0;}
+
+.button {
+   border-top: 1px solid #93bac6;
+   background: #93bac6;
+   background: -webkit-gradient(linear, left top, left bottom, from(#93bac6), to(#93bac6));
+   background: -webkit-linear-gradient(top, #93bac6, #93bac6);
+   background: -moz-linear-gradient(top, #93bac6, #93bac6);
+   background: -ms-linear-gradient(top, #93bac6, #93bac6);
+   background: -o-linear-gradient(top, #93bac6, #93bac6);
+   padding: 2px 4px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+/*   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+ box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0; */
+   color: white;
+   font-size: 12px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }

@@ -1,0 +1,7 @@
+AuthName "vocalissimo.org statistics"
+AuthType Basic
+AuthUserFile /home/vocalissimo/.stats-htpasswd
+require valid-user
+<Files .htpasswd>
+deny from all
+</Files>
